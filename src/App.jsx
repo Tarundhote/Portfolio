@@ -215,7 +215,7 @@ const App = () => {
     <div className="min-h-screen bg-[#0F172A] text-[#F1F5F9] font-['Poppins'] selection:bg-blue-500/30">
       {/* Navigation */}
       <nav className="fixed top-0 w-full z-50 border-b bg-[#0F172A]/80 backdrop-blur-xl border-white/5">
-        <div className="container mx-auto px-6 h-20 flex items-center justify-between">
+        <div className="max-w-[1260px] w-full mx-auto px-6 h-20 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-lg flex items-center justify-center font-bold text-white shadow-lg">
               T
@@ -254,7 +254,7 @@ const App = () => {
         <div className="absolute top-1/4 -right-20 w-96 h-96 bg-blue-600/10 blur-[120px] rounded-full"></div>
         <div className="absolute bottom-1/4 -left-20 w-96 h-96 bg-green-600/10 blur-[120px] rounded-full"></div>
 
-        <div className="container mx-auto grid lg:grid-cols-2 gap-12 items-center relative z-10">
+        <div className="max-w-[1260px] w-full mx-auto grid lg:grid-cols-2 gap-12 items-center relative z-10">
           <div className="space-y-8">
             <div className="inline-flex items-center gap-2 px-3 py-1 mt-6 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-500 text-xs font-bold uppercase tracking-wider">
               <span className="w-2 h-2 rounded-full bg-blue-500 animate-pulse"></span>
@@ -340,7 +340,7 @@ const App = () => {
 
       {/* 1. ABOUT SECTION */}
       <section id="about" className="py-32 px-6">
-        <div className="container mx-auto">
+        <div className="max-w-[1260px] w-full mx-auto">
           <div className="grid lg:grid-cols-2 gap-20 items-center">
             <div className="space-y-8">
               <div className="inline-block px-4 py-1.5 bg-blue-500/10 border border-blue-500/20 rounded-full text-blue-500 text-xs font-bold uppercase tracking-widest">
@@ -405,7 +405,7 @@ const App = () => {
 
       {/* 2. EXPERIENCE SECTION */}
       <section id="experience" className="py-32 px-6 bg-black/10">
-        <div className="container mx-auto">
+        <div className="max-w-[1260px] w-full mx-auto">
           <div className="mb-16">
             <div className="inline-block px-4 py-1.5 bg-blue-500/10 border border-blue-500/20 rounded-full text-blue-500 text-xs font-bold uppercase tracking-widest mb-4">
               02. Career
@@ -455,7 +455,7 @@ const App = () => {
 
       {/* 3. PROJECTS SECTION */}
       <section id="projects" className="py-32 px-6">
-        <div className="container mx-auto">
+        <div className="max-w-[1260px] w-full mx-auto">
           <div className="text-center mb-16 space-y-6">
             <div>
               <div className="inline-block px-4 py-1.5 bg-blue-500/10 border border-blue-500/20 rounded-full text-blue-500 text-xs font-bold uppercase tracking-widest mb-4">
@@ -544,7 +544,7 @@ const App = () => {
 
       {/* 4. SKILLS SECTION */}
       <section id="skills" className="py-32 px-6 bg-black/10">
-        <div className="container mx-auto">
+        <div className="max-w-[1260px] w-full mx-auto">
           <div className="text-center mb-20">
             <div className="inline-block px-4 py-1.5 bg-blue-500/10 border border-blue-500/20 rounded-full text-blue-500 text-xs font-bold uppercase tracking-widest mb-4">
               04. Arsenal
@@ -584,7 +584,7 @@ const App = () => {
 
       {/* 5. CONTACT SECTION */}
       <section id="contact" className="py-32 px-6">
-        <div className="container mx-auto">
+        <div className="max-w-[1260px] w-full mx-auto">
           <div className="grid lg:grid-cols-2 gap-20">
             <div className="space-y-12">
               <div className="space-y-4">
@@ -716,7 +716,7 @@ const App = () => {
 
       {/* Footer */}
       <footer className="py-20 border-t border-white/5 text-center">
-        <div className="container mx-auto px-6">
+        <div className="max-w-[1260px] w-full mx-auto px-6">
           <div className="inline-flex items-center gap-2 mb-8 opacity-40">
             <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center font-bold text-black text-xs">
               T
